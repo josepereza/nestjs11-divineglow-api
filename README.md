@@ -43,6 +43,18 @@ curl -X POST -H "Content-Type: application/json" -d '{
 }' http://localhost:3000/pedidos
 
 ```
+
+## Ejemplo de creacion de producto
+```
+
+curl -X POST -H "Content-Type: application/json" -d '{
+    "name": "Bolso de Cuero Elegante",
+    "description": "Un sofisticado bolso de cuero, perfecto para cualquier ocasión.",
+    "price": 12.95,
+    "imageUrl": "/cuero.jpeg","stock":5
+ }' http://localhost:3000/productos
+```
+
 ## Project setup
 
 ```bash
